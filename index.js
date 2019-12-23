@@ -21,8 +21,8 @@ try {
     }
 
     const request = http.request({
-        host: 'localhost',
-        port: 3001,
+        host: 'mwebdesign.co.uk',
+        port: 80,
         path: `/schema/${schema}`,
         headers: {
             'user-agent': 'mslcli'

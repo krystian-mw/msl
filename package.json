@@ -1,0 +1,11 @@
+{
+  "name": "msl",
+  "version": "1.0.0",
+  "description": "Mongoose Schema Library CLI",
+  "main": "msl",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT"
+}

@@ -2,11 +2,16 @@
   "name": "msl",
   "version": "1.0.0",
   "description": "Mongoose Schema Library CLI",
-  "main": "./index.js",
+  "main": "msl",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "node ./index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+      "msl": "./index.js"
   },
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "msl": "github:krystian-mw/msl"
+  }
 }

@@ -21,7 +21,7 @@ try {
     }
 
     const request = http.request({
-        host: 'mwebdesign.co.uk',
+        host: 'msl.mwebdesign.co.uk',
         port: 80,
         path: `/schema/${schema}`,
         headers: {

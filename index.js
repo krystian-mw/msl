@@ -13,8 +13,8 @@ try {
     // if (fs.existsSync(file_path)) throw new Error(`${file_path} already exists!`)
     console.log("\x1b[42m", (fs.existsSync(file_path) ? 'Updating' : 'Downloading'), "\x1b[0m")
     console.log("\x1b[36m", `${schema}`)
-    console.log("\x1b[0m", 'Into')
-    console.log("\x1b[36m", dir, "\x1b[0m", `\n\n`)
+    console.log("\x1b[0m", 'into')
+    console.log("\x1b[36m", file_path, "\x1b[0m", `\n\n`)
 
     function err (message) {
         console.log("\x1b[31m", 'Big Fat Fail', "\x1b[0m", 'becuase:', "\x1b[31m", message, "\x1b[0m")
